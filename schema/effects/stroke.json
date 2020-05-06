@@ -32,10 +32,7 @@
           "$ref": "https://nickdima.github.io/lottie-schema/effects/color.json"
         },
         {
-          "$ref": "https://nickdima.github.io/lottie-schema/effects/checkbox.json"
-        },
-        {
-          "$ref": "https://nickdima.github.io/lottie-schema/effects/checkbox.json"
+          "$ref": "https://nickdima.github.io/lottie-schema/effects/checkBox.json"
         },
         {
           "$ref": "https://nickdima.github.io/lottie-schema/effects/color.json"
