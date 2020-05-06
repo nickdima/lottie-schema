@@ -23,35 +23,35 @@
       "description": "复印数量",
       "oneOf": [
         {
-          "$ref": "https://lottie-lint.github.io/lottie-schema/properties/Value.json"
+          "$ref": "https://nickdima.github.io/lottie-schema/properties/Value.json"
         },
         {
-          "$ref": "https://lottie-lint.github.io/lottie-schema/properties/valueKeyframed.json"
+          "$ref": "https://nickdima.github.io/lottie-schema/properties/valueKeyframed.json"
         }
       ],
       "type": "object",
-      "default": {"a": 0, "k": 1}
+      "default": { "a": 0, "k": 1 }
     },
     "o": {
       "title": "Offset",
       "description": "副本的偏移量",
       "oneOf": [
         {
-          "$ref": "https://lottie-lint.github.io/lottie-schema/properties/Value.json"
+          "$ref": "https://nickdima.github.io/lottie-schema/properties/Value.json"
         },
         {
-          "$ref": "https://lottie-lint.github.io/lottie-schema/properties/valueKeyframed.json"
+          "$ref": "https://nickdima.github.io/lottie-schema/properties/valueKeyframed.json"
         }
       ],
       "type": "object",
-      "default": {"a": 0, "k": 0}
+      "default": { "a": 0, "k": 0 }
     },
     "m": {
       "title": "Composite",
       "description": "复合的副本",
       "oneOf": [
         {
-          "$ref": "https://lottie-lint.github.io/lottie-schema/helpers/composite.json"
+          "$ref": "https://nickdima.github.io/lottie-schema/helpers/composite.json"
         }
       ],
       "type": "number",
@@ -62,7 +62,7 @@
       "description": "转换每个转发器副本的值",
       "oneOf": [
         {
-          "$ref": "https://lottie-lint.github.io/lottie-schema/helpers/transform.json"
+          "$ref": "https://nickdima.github.io/lottie-schema/helpers/transform.json"
         }
       ],
       "type": "object"

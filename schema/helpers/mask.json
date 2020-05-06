@@ -21,10 +21,10 @@
         "type": "object",
         "oneOf": [
           {
-            "$ref": "https://lottie-lint.github.io/lottie-schema/properties/shape.json"
+            "$ref": "https://nickdima.github.io/lottie-schema/properties/shape.json"
           },
           {
-            "$ref": "https://lottie-lint.github.io/lottie-schema/properties/shapeKeyframed.json"
+            "$ref": "https://nickdima.github.io/lottie-schema/properties/shapeKeyframed.json"
           }
         ]
       }
@@ -35,13 +35,13 @@
       "type": "object",
       "oneOf": [
         {
-          "$ref": "https://lottie-lint.github.io/lottie-schema/properties/const.json"
+          "$ref": "https://nickdima.github.io/lottie-schema/properties/const.json"
         },
         {
-          "$ref": "https://lottie-lint.github.io/lottie-schema/properties/constKeyframed.json"
+          "$ref": "https://nickdima.github.io/lottie-schema/properties/constKeyframed.json"
         }
       ],
-      "default": {"a":0, "k":100}
+      "default": { "a": 0, "k": 100 }
     },
     "mode": {
       "title": "Mode",
@@ -77,7 +77,7 @@
           "const": "f"
         }
       ],
-      "default": "a",
+      "default": "a"
     }
   }
 }

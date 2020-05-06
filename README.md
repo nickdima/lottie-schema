@@ -1,6 +1,6 @@
 # lottie schema
 
-基于 vscode 的 json schema https://lottie-lint.github.io/lottie-schema/animation.json
+基于 vscode 的 json schema https://nickdima.github.io/lottie-schema/animation.json
 
 对 lottie json 进行解析
 
@@ -20,13 +20,13 @@ npm run deploy
 
 ```js
 // 初始化
-const lottieSchema = new LottieSchema();
+const lottieSchema = new LottieSchema()
 // 添加背景图片
 lottieSchema.addBgImage({
   url: 'https://gw.alipayobjects.com/zos/antfincdn/I9Bu85KAaq/750x300.png',
   width: 750,
   height: 300,
-});
+})
 // 获取lottie json
 const animationData = lottieSchema.getObj()
 ```
