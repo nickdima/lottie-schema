@@ -11,35 +11,43 @@
     "ks": {
       "title": "Transform",
       "description": "转换属性",
-      "oneOf": [{
-        "$ref": "https://lottie-lint.github.io/lottie-schema/helpers/transform.json"
-      }],
+      "oneOf": [
+        {
+          "$ref": "https://nickdima.github.io/lottie-schema/helpers/transform.json"
+        }
+      ],
       "type": "object"
     },
     "ao": {
       "title": "Auto-Orient",
       "description": "沿路径AE属性自动定向。",
-      "oneOf": [{
-        "$ref": "https://lottie-lint.github.io/lottie-schema/helpers/boolean.json"
-      }],
+      "oneOf": [
+        {
+          "$ref": "https://nickdima.github.io/lottie-schema/helpers/boolean.json"
+        }
+      ],
       "type": "number",
       "default": 0
     },
     "bm": {
       "title": "Blend Mode",
       "description": "混合模式",
-      "oneOf": [{
-        "$ref": "https://lottie-lint.github.io/lottie-schema/helpers/blendMode.json"
-      }],
+      "oneOf": [
+        {
+          "$ref": "https://nickdima.github.io/lottie-schema/helpers/blendMode.json"
+        }
+      ],
       "type": "number",
       "default": 0
     },
     "ddd": {
       "title": "3d Layer",
       "description": "3d图层标志",
-      "oneOf": [{
-        "$ref": "https://lottie-lint.github.io/lottie-schema/helpers/boolean.json"
-      }],
+      "oneOf": [
+        {
+          "$ref": "https://nickdima.github.io/lottie-schema/helpers/boolean.json"
+        }
+      ],
       "type": "number",
       "default": 0
     },
@@ -87,9 +95,11 @@
       "title": "Mask Properties",
       "description": "面具清单",
       "items": {
-        "oneOf": [{
-          "$ref": "https://lottie-lint.github.io/lottie-schema/helpers/mask.json"
-        }],
+        "oneOf": [
+          {
+            "$ref": "https://nickdima.github.io/lottie-schema/helpers/mask.json"
+          }
+        ],
         "type": "object"
       },
       "type": "array"
@@ -97,9 +107,11 @@
     "ef": {
       "title": "Effects",
       "description": "沿路径AE属性自动定向。",
-      "oneOf": [{
-        "$ref": "https://lottie-lint.github.io/lottie-schema/helpers/boolean.json"
-      }],
+      "oneOf": [
+        {
+          "$ref": "https://nickdima.github.io/lottie-schema/helpers/boolean.json"
+        }
+      ],
       "type": "number"
     },
     "sr": {
@@ -129,11 +141,12 @@
                   "p": {
                     "title": "Position",
                     "description": "文本动画位置",
-                    "oneOf": [{
-                        "$ref": "https://lottie-lint.github.io/lottie-schema/properties/multiDimensional.json"
+                    "oneOf": [
+                      {
+                        "$ref": "https://nickdima.github.io/lottie-schema/properties/multiDimensional.json"
                       },
                       {
-                        "$ref": "https://lottie-lint.github.io/lottie-schema/properties/multiDimensionalKeyframed.json"
+                        "$ref": "https://nickdima.github.io/lottie-schema/properties/multiDimensionalKeyframed.json"
                       }
                     ],
                     "type": "object"
@@ -141,11 +154,12 @@
                   "a": {
                     "title": "Anchor Point",
                     "description": "文本动画锚点",
-                    "oneOf": [{
-                        "$ref": "https://lottie-lint.github.io/lottie-schema/properties/multiDimensional.json"
+                    "oneOf": [
+                      {
+                        "$ref": "https://nickdima.github.io/lottie-schema/properties/multiDimensional.json"
                       },
                       {
-                        "$ref": "https://lottie-lint.github.io/lottie-schema/properties/multiDimensionalKeyframed.json"
+                        "$ref": "https://nickdima.github.io/lottie-schema/properties/multiDimensionalKeyframed.json"
                       }
                     ],
                     "type": "object"
@@ -153,11 +167,12 @@
                   "s": {
                     "title": "Scale",
                     "description": "文本动画比例",
-                    "oneOf": [{
-                        "$ref": "https://lottie-lint.github.io/lottie-schema/properties/multiDimensional.json"
+                    "oneOf": [
+                      {
+                        "$ref": "https://nickdima.github.io/lottie-schema/properties/multiDimensional.json"
                       },
                       {
-                        "$ref": "https://lottie-lint.github.io/lottie-schema/properties/multiDimensionalKeyframed.json"
+                        "$ref": "https://nickdima.github.io/lottie-schema/properties/multiDimensionalKeyframed.json"
                       }
                     ],
                     "type": "object"
@@ -165,11 +180,12 @@
                   "sk": {
                     "title": "Skew",
                     "description": "文本动画歪斜",
-                    "oneOf": [{
-                        "$ref": "https://lottie-lint.github.io/lottie-schema/properties/value.json"
+                    "oneOf": [
+                      {
+                        "$ref": "https://nickdima.github.io/lottie-schema/properties/value.json"
                       },
                       {
-                        "$ref": "https://lottie-lint.github.io/lottie-schema/properties/valueKeyframed.json"
+                        "$ref": "https://nickdima.github.io/lottie-schema/properties/valueKeyframed.json"
                       }
                     ],
                     "type": "object"
@@ -177,11 +193,12 @@
                   "sa": {
                     "title": "Skew Axis",
                     "description": "文本动画Skew Axis",
-                    "oneOf": [{
-                        "$ref": "https://lottie-lint.github.io/lottie-schema/properties/value.json"
+                    "oneOf": [
+                      {
+                        "$ref": "https://nickdima.github.io/lottie-schema/properties/value.json"
                       },
                       {
-                        "$ref": "https://lottie-lint.github.io/lottie-schema/properties/valueKeyframed.json"
+                        "$ref": "https://nickdima.github.io/lottie-schema/properties/valueKeyframed.json"
                       }
                     ],
                     "type": "object"
@@ -189,11 +206,12 @@
                   "r": {
                     "title": "Rotation",
                     "description": "文本动画旋转",
-                    "oneOf": [{
-                        "$ref": "https://lottie-lint.github.io/lottie-schema/properties/value.json"
+                    "oneOf": [
+                      {
+                        "$ref": "https://nickdima.github.io/lottie-schema/properties/value.json"
                       },
                       {
-                        "$ref": "https://lottie-lint.github.io/lottie-schema/properties/valueKeyframed.json"
+                        "$ref": "https://nickdima.github.io/lottie-schema/properties/valueKeyframed.json"
                       }
                     ],
                     "type": "object"
@@ -201,11 +219,12 @@
                   "o": {
                     "title": "Opacity",
                     "description": "文本动画不透明度",
-                    "oneOf": [{
-                        "$ref": "https://lottie-lint.github.io/lottie-schema/properties/value.json"
+                    "oneOf": [
+                      {
+                        "$ref": "https://nickdima.github.io/lottie-schema/properties/value.json"
                       },
                       {
-                        "$ref": "https://lottie-lint.github.io/lottie-schema/properties/valueKeyframed.json"
+                        "$ref": "https://nickdima.github.io/lottie-schema/properties/valueKeyframed.json"
                       }
                     ],
                     "type": "object"
@@ -213,11 +232,12 @@
                   "sw": {
                     "title": "Stroke Width",
                     "description": "文本动画笔画宽度",
-                    "oneOf": [{
-                        "$ref": "https://lottie-lint.github.io/lottie-schema/properties/value.json"
+                    "oneOf": [
+                      {
+                        "$ref": "https://nickdima.github.io/lottie-schema/properties/value.json"
                       },
                       {
-                        "$ref": "https://lottie-lint.github.io/lottie-schema/properties/valueKeyframed.json"
+                        "$ref": "https://nickdima.github.io/lottie-schema/properties/valueKeyframed.json"
                       }
                     ],
                     "type": "object"
@@ -225,11 +245,12 @@
                   "sc": {
                     "title": "Stroke Color",
                     "description": "文本动画笔画颜色",
-                    "oneOf": [{
-                        "$ref": "https://lottie-lint.github.io/lottie-schema/properties/multiDimensional.json"
+                    "oneOf": [
+                      {
+                        "$ref": "https://nickdima.github.io/lottie-schema/properties/multiDimensional.json"
                       },
                       {
-                        "$ref": "https://lottie-lint.github.io/lottie-schema/properties/multiDimensionalKeyframed.json"
+                        "$ref": "https://nickdima.github.io/lottie-schema/properties/multiDimensionalKeyframed.json"
                       }
                     ],
                     "type": "object"
@@ -237,11 +258,12 @@
                   "fc": {
                     "title": "Fill Color",
                     "description": "文本动画填充颜色",
-                    "oneOf": [{
-                        "$ref": "https://lottie-lint.github.io/lottie-schema/properties/multiDimensional.json"
+                    "oneOf": [
+                      {
+                        "$ref": "https://nickdima.github.io/lottie-schema/properties/multiDimensional.json"
                       },
                       {
-                        "$ref": "https://lottie-lint.github.io/lottie-schema/properties/multiDimensionalKeyframed.json"
+                        "$ref": "https://nickdima.github.io/lottie-schema/properties/multiDimensionalKeyframed.json"
                       }
                     ],
                     "type": "object"
@@ -249,11 +271,12 @@
                   "fh": {
                     "title": "Fill Hue",
                     "description": "文本动画填充色调",
-                    "oneOf": [{
-                        "$ref": "https://lottie-lint.github.io/lottie-schema/properties/value.json"
+                    "oneOf": [
+                      {
+                        "$ref": "https://nickdima.github.io/lottie-schema/properties/value.json"
                       },
                       {
-                        "$ref": "https://lottie-lint.github.io/lottie-schema/properties/valueKeyframed.json"
+                        "$ref": "https://nickdima.github.io/lottie-schema/properties/valueKeyframed.json"
                       }
                     ],
                     "type": "object"
@@ -261,11 +284,12 @@
                   "fs": {
                     "title": "Fill Saturation",
                     "description": "文本动画填充饱和度",
-                    "oneOf": [{
-                        "$ref": "https://lottie-lint.github.io/lottie-schema/properties/value.json"
+                    "oneOf": [
+                      {
+                        "$ref": "https://nickdima.github.io/lottie-schema/properties/value.json"
                       },
                       {
-                        "$ref": "https://lottie-lint.github.io/lottie-schema/properties/valueKeyframed.json"
+                        "$ref": "https://nickdima.github.io/lottie-schema/properties/valueKeyframed.json"
                       }
                     ],
                     "type": "object"
@@ -273,11 +297,12 @@
                   "fb": {
                     "title": "Fill Brightness",
                     "description": "文本动画填充亮度",
-                    "oneOf": [{
-                        "$ref": "https://lottie-lint.github.io/lottie-schema/properties/value.json"
+                    "oneOf": [
+                      {
+                        "$ref": "https://nickdima.github.io/lottie-schema/properties/value.json"
                       },
                       {
-                        "$ref": "https://lottie-lint.github.io/lottie-schema/properties/valueKeyframed.json"
+                        "$ref": "https://nickdima.github.io/lottie-schema/properties/valueKeyframed.json"
                       }
                     ],
                     "type": "object"
@@ -285,11 +310,12 @@
                   "t": {
                     "title": "Tracking",
                     "description": "文本动画跟踪",
-                    "oneOf": [{
-                        "$ref": "https://lottie-lint.github.io/lottie-schema/properties/value.json"
+                    "oneOf": [
+                      {
+                        "$ref": "https://nickdima.github.io/lottie-schema/properties/value.json"
                       },
                       {
-                        "$ref": "https://lottie-lint.github.io/lottie-schema/properties/valueKeyframed.json"
+                        "$ref": "https://nickdima.github.io/lottie-schema/properties/valueKeyframed.json"
                       }
                     ],
                     "type": "object"
@@ -309,11 +335,12 @@
                   "maxa": {
                     "title": "Max Amount",
                     "description": "选择器最大金额",
-                    "oneOf": [{
-                        "$ref": "https://lottie-lint.github.io/lottie-schema/properties/value.json"
+                    "oneOf": [
+                      {
+                        "$ref": "https://nickdima.github.io/lottie-schema/properties/value.json"
                       },
                       {
-                        "$ref": "https://lottie-lint.github.io/lottie-schema/properties/valueKeyframed.json"
+                        "$ref": "https://nickdima.github.io/lottie-schema/properties/valueKeyframed.json"
                       }
                     ],
                     "type": "number"
@@ -321,11 +348,12 @@
                   "mine": {
                     "title": "Min Ease",
                     "description": "级别敏捷",
-                    "oneOf": [{
-                        "$ref": "https://lottie-lint.github.io/lottie-schema/properties/value.json"
+                    "oneOf": [
+                      {
+                        "$ref": "https://nickdima.github.io/lottie-schema/properties/value.json"
                       },
                       {
-                        "$ref": "https://lottie-lint.github.io/lottie-schema/properties/valueKeyframed.json"
+                        "$ref": "https://nickdima.github.io/lottie-schema/properties/valueKeyframed.json"
                       }
                     ],
                     "type": "number"
@@ -333,11 +361,12 @@
                   "maxe": {
                     "title": "Max Ease",
                     "description": "级别最大限度",
-                    "oneOf": [{
-                        "$ref": "https://lottie-lint.github.io/lottie-schema/properties/value.json"
+                    "oneOf": [
+                      {
+                        "$ref": "https://nickdima.github.io/lottie-schema/properties/value.json"
                       },
                       {
-                        "$ref": "https://lottie-lint.github.io/lottie-schema/properties/valueKeyframed.json"
+                        "$ref": "https://nickdima.github.io/lottie-schema/properties/valueKeyframed.json"
                       }
                     ],
                     "type": "number"
@@ -345,25 +374,31 @@
                   "r": {
                     "title": "Randomize",
                     "description": "选择器随机化顺序",
-                    "oneOf": [{
-                      "$ref": "https://lottie-lint.github.io/lottie-schema/helpers/boolean.json"
-                    }],
+                    "oneOf": [
+                      {
+                        "$ref": "https://nickdima.github.io/lottie-schema/helpers/boolean.json"
+                      }
+                    ],
                     "type": "number"
                   },
                   "s": {
                     "title": "Shape",
                     "description": "选择器形状",
-                    "oneOf": [{
-                      "$ref": "https://lottie-lint.github.io/lottie-schema/helpers/textShape.json"
-                    }],
+                    "oneOf": [
+                      {
+                        "$ref": "https://nickdima.github.io/lottie-schema/helpers/textShape.json"
+                      }
+                    ],
                     "type": "number"
                   },
                   "bo": {
                     "title": "Based On",
                     "description": "基于的选择器",
-                    "oneOf": [{
-                      "$ref": "https://lottie-lint.github.io/lottie-schema/helpers/textBased.json"
-                    }],
+                    "oneOf": [
+                      {
+                        "$ref": "https://nickdima.github.io/lottie-schema/helpers/textBased.json"
+                      }
+                    ],
                     "type": "number"
                   },
                   "ru": {
@@ -374,11 +409,12 @@
                   "start": {
                     "title": "Start",
                     "description": "选择器启动",
-                    "oneOf": [{
-                        "$ref": "https://lottie-lint.github.io/lottie-schema/properties/value.json"
+                    "oneOf": [
+                      {
+                        "$ref": "https://nickdima.github.io/lottie-schema/properties/value.json"
                       },
                       {
-                        "$ref": "https://lottie-lint.github.io/lottie-schema/properties/valueKeyframed.json"
+                        "$ref": "https://nickdima.github.io/lottie-schema/properties/valueKeyframed.json"
                       }
                     ],
                     "type": "number"
@@ -386,11 +422,12 @@
                   "end": {
                     "title": "End",
                     "description": "选择器结束",
-                    "oneOf": [{
-                        "$ref": "https://lottie-lint.github.io/lottie-schema/properties/value.json"
+                    "oneOf": [
+                      {
+                        "$ref": "https://nickdima.github.io/lottie-schema/properties/value.json"
                       },
                       {
-                        "$ref": "https://lottie-lint.github.io/lottie-schema/properties/valueKeyframed.json"
+                        "$ref": "https://nickdima.github.io/lottie-schema/properties/valueKeyframed.json"
                       }
                     ],
                     "type": "number"
@@ -398,11 +435,12 @@
                   "Offset": {
                     "title": "Offset",
                     "description": "选择器偏移",
-                    "oneOf": [{
-                        "$ref": "https://lottie-lint.github.io/lottie-schema/properties/value.json"
+                    "oneOf": [
+                      {
+                        "$ref": "https://nickdima.github.io/lottie-schema/properties/value.json"
                       },
                       {
-                        "$ref": "https://lottie-lint.github.io/lottie-schema/properties/valueKeyframed.json"
+                        "$ref": "https://nickdima.github.io/lottie-schema/properties/valueKeyframed.json"
                       }
                     ],
                     "type": "number"
@@ -422,19 +460,22 @@
             "a": {
               "title": "Anchor Point Grouping",
               "description": "文本锚点分组",
-              "oneOf": [{
-                "$ref": "https://lottie-lint.github.io/lottie-schema/helpers/textGrouping.json"
-              }],
+              "oneOf": [
+                {
+                  "$ref": "https://nickdima.github.io/lottie-schema/helpers/textGrouping.json"
+                }
+              ],
               "type": "number"
             },
             "g": {
               "title": "Grouping Alignment",
               "description": "文本分组对齐",
-              "oneOf": [{
-                  "$ref": "https://lottie-lint.github.io/lottie-schema/properties/multiDimensional.json"
+              "oneOf": [
+                {
+                  "$ref": "https://nickdima.github.io/lottie-schema/properties/multiDimensional.json"
                 },
                 {
-                  "$ref": "https://lottie-lint.github.io/lottie-schema/properties/multiDimensionalKeyframed.json"
+                  "$ref": "https://nickdima.github.io/lottie-schema/properties/multiDimensionalKeyframed.json"
                 }
               ],
               "type": "number"
@@ -455,62 +496,64 @@
               "title": "Keyframes",
               "description": "文本文档数据关键帧",
               "items": {
-                "oneOf": [{
-                  "properties": {
-                    "t": {
-                      "title": "Time",
-                      "description": "关键帧时间",
-                      "type": "number"
-                    },
-                    "s": {
-                      "title": "Text Properties",
-                      "description": "文字属性",
-                      "type": "object",
-                      "properties": {
-                        "f": {
-                          "title": "Font",
-                          "description": "文字字体",
-                          "type": "string"
-                        },
-                        "fc": {
-                          "title": "Font Color",
-                          "description": "文字字体颜色",
-                          "type": "array"
-                        },
-                        "j": {
-                          "title": "Justificaiton",
-                          "description": "文字对齐",
-                          "type": "string"
-                        },
-                        "lh": {
-                          "title": "Line Height",
-                          "description": "文字线高度",
-                          "type": "number"
-                        },
-                        "ls": {
-                          "title": "letter-spacing",
-                          "description": "文字间距",
-                          "type": "number"
-                        },
-                        "s": {
-                          "title": "Size",
-                          "description": "文字字体大小",
-                          "type": "number"
-                        },
-                        "t": {
-                          "title": "Text",
-                          "description": "文本字符串值",
-                          "type": "string"
-                        },
-                        "tr": {
-                          "title": "Tracking",
-                          "description": "文字追踪",
-                          "type": "number"
+                "oneOf": [
+                  {
+                    "properties": {
+                      "t": {
+                        "title": "Time",
+                        "description": "关键帧时间",
+                        "type": "number"
+                      },
+                      "s": {
+                        "title": "Text Properties",
+                        "description": "文字属性",
+                        "type": "object",
+                        "properties": {
+                          "f": {
+                            "title": "Font",
+                            "description": "文字字体",
+                            "type": "string"
+                          },
+                          "fc": {
+                            "title": "Font Color",
+                            "description": "文字字体颜色",
+                            "type": "array"
+                          },
+                          "j": {
+                            "title": "Justificaiton",
+                            "description": "文字对齐",
+                            "type": "string"
+                          },
+                          "lh": {
+                            "title": "Line Height",
+                            "description": "文字线高度",
+                            "type": "number"
+                          },
+                          "ls": {
+                            "title": "letter-spacing",
+                            "description": "文字间距",
+                            "type": "number"
+                          },
+                          "s": {
+                            "title": "Size",
+                            "description": "文字字体大小",
+                            "type": "number"
+                          },
+                          "t": {
+                            "title": "Text",
+                            "description": "文本字符串值",
+                            "type": "string"
+                          },
+                          "tr": {
+                            "title": "Tracking",
+                            "description": "文字追踪",
+                            "type": "number"
+                          }
                         }
                       }
                     }
                   }
-                }],
+                ],
                 "type": "object"
               },
               "type": "array"
