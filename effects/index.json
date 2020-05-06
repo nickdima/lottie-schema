@@ -30,7 +30,7 @@
       "$ref": "https://nickdima.github.io/lottie-schema/effects/customValue.json"
     },
     {
-      "$ref": "https://nickdima.github.io/lottie-schema/effects/layerIndex.json"
+      "$ref": "https://nickdima.github.io/lottie-schema/effects/layer.json"
     },
     {
       "$ref": "https://nickdima.github.io/lottie-schema/effects/tint.json"
