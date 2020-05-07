@@ -338,7 +338,7 @@ export interface HighlightAngle {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Value
      *
@@ -397,7 +397,7 @@ export interface Color {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Keyframes
      *
@@ -486,7 +486,7 @@ export interface EObject {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Keyframes
      *
@@ -518,7 +518,7 @@ export interface HighlightLength {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Value
      *
@@ -542,7 +542,7 @@ export interface OuterRadius {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Value
      *
@@ -566,7 +566,7 @@ export interface OuterRoundness {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Value
      *
@@ -725,7 +725,7 @@ export interface PurpleHighlightAngle {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Value
      *
@@ -757,7 +757,7 @@ export interface PurpleColor {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Keyframes
      */
@@ -828,7 +828,7 @@ export interface Vertices {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Value
      *
@@ -983,7 +983,7 @@ export interface PurpleOpacity {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Value
      *
@@ -1007,7 +1007,7 @@ export interface PurplePosition {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Keyframes
      */
@@ -1037,7 +1037,7 @@ export interface Points {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Value
      *
@@ -1065,7 +1065,7 @@ export interface PurpleRoundedCorners {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Value
      *
@@ -1095,7 +1095,7 @@ export interface PurpleSize {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Keyframes
      *
@@ -1127,7 +1127,7 @@ export interface ItSkewAxis {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Value
      *
@@ -1151,7 +1151,7 @@ export interface ItSkew {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Value
      *
@@ -1177,7 +1177,7 @@ export interface Width {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Value
      *
@@ -1203,7 +1203,7 @@ export interface ShapeO {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Value
      *
@@ -1227,7 +1227,7 @@ export interface ShapeP {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Keyframes
      */
@@ -1261,7 +1261,7 @@ export interface ShapeR {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Value
      *
@@ -1289,7 +1289,7 @@ export interface ShapeS {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Keyframes
      *
@@ -1367,7 +1367,7 @@ export interface TransformAnchorPoint {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Keyframes
      */
@@ -1397,7 +1397,7 @@ export interface TransformOpacity {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Value
      *
@@ -1421,7 +1421,7 @@ export interface TransformPosition {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Keyframes
      */
@@ -1451,7 +1451,7 @@ export interface PositionX {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Value
      *
@@ -1475,7 +1475,7 @@ export interface PositionY {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Value
      *
@@ -1499,7 +1499,7 @@ export interface PositionZ {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Value
      *
@@ -1523,7 +1523,7 @@ export interface TransformRotation {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Value
      *
@@ -1547,7 +1547,7 @@ export interface TransformScale {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Keyframes
      */
@@ -1577,7 +1577,7 @@ export interface TransformSkewAxis {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Value
      *
@@ -1601,7 +1601,7 @@ export interface TransformSkew {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Value
      *
@@ -1694,7 +1694,7 @@ export interface MaskPropertyOpacity {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Value
      *
@@ -1715,7 +1715,7 @@ export interface Point {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Value
      *
@@ -1973,7 +1973,7 @@ export interface AAnchorPoint {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Keyframes
      */
@@ -2003,7 +2003,7 @@ export interface FillBrightness {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Value
      *
@@ -2027,7 +2027,7 @@ export interface FillColor {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Keyframes
      */
@@ -2057,7 +2057,7 @@ export interface FillHue {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Value
      *
@@ -2081,7 +2081,7 @@ export interface FillSaturation {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Value
      *
@@ -2105,7 +2105,7 @@ export interface AOpacity {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Value
      *
@@ -2129,7 +2129,7 @@ export interface APosition {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Keyframes
      */
@@ -2159,7 +2159,7 @@ export interface ARotation {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Value
      *
@@ -2183,7 +2183,7 @@ export interface AScale {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Keyframes
      */
@@ -2213,7 +2213,7 @@ export interface ASkewAxis {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Value
      *
@@ -2237,7 +2237,7 @@ export interface StrokeColor {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Keyframes
      */
@@ -2267,7 +2267,7 @@ export interface ASkew {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Value
      *
@@ -2291,7 +2291,7 @@ export interface StrokeWidth {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Value
      *
@@ -2315,7 +2315,7 @@ export interface Tracking {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Value
      *
@@ -2389,7 +2389,7 @@ export interface Offset {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Value
      *
@@ -2413,7 +2413,7 @@ export interface End {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Value
      *
@@ -2437,7 +2437,7 @@ export interface MaxAmount {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Value
      *
@@ -2461,7 +2461,7 @@ export interface MaxEase {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Value
      *
@@ -2485,7 +2485,7 @@ export interface MinEase {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Value
      *
@@ -2509,7 +2509,7 @@ export interface Start {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Value
      *
@@ -2606,7 +2606,7 @@ export interface GroupingAlignment {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Keyframes
      */
@@ -2690,7 +2690,7 @@ export interface Keys {
     /**
      * Property Index
      */
-    ix?: string;
+    ix?: number;
     /**
      * Value
      */
@@ -3089,7 +3089,7 @@ const typeMap: any = {
     ], "any"),
     "HighlightAngle": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, u(a(r("PurpleK")), 3.14)) },
         { json: "x", js: "x", typ: u(undefined, "") },
     ], "any"),
@@ -3105,7 +3105,7 @@ const typeMap: any = {
     ], "any"),
     "Color": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, u(a(r("FluffyK")), 3.14)) },
         { json: "ti", js: "ti", typ: u(undefined, a("any")) },
         { json: "to", js: "to", typ: u(undefined, a("any")) },
@@ -3129,7 +3129,7 @@ const typeMap: any = {
     ], "any"),
     "EObject": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, u(a(r("FluffyK")), 3.14)) },
         { json: "ti", js: "ti", typ: u(undefined, a("any")) },
         { json: "to", js: "to", typ: u(undefined, a("any")) },
@@ -3137,19 +3137,19 @@ const typeMap: any = {
     ], "any"),
     "HighlightLength": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, u(a(r("PurpleK")), 3.14)) },
         { json: "x", js: "x", typ: u(undefined, "") },
     ], "any"),
     "OuterRadius": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, u(a(r("PurpleK")), 3.14)) },
         { json: "x", js: "x", typ: u(undefined, "") },
     ], "any"),
     "OuterRoundness": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, u(a(r("PurpleK")), 3.14)) },
         { json: "x", js: "x", typ: u(undefined, "") },
     ], "any"),
@@ -3185,7 +3185,7 @@ const typeMap: any = {
     ], "any"),
     "PurpleHighlightAngle": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, u(a(r("FluffyK")), 3.14)) },
         { json: "x", js: "x", typ: u(undefined, "") },
         { json: "ti", js: "ti", typ: u(undefined, a("any")) },
@@ -3193,7 +3193,7 @@ const typeMap: any = {
     ], "any"),
     "PurpleColor": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, a(r("CKObject"))) },
         { json: "ti", js: "ti", typ: u(undefined, a("any")) },
         { json: "to", js: "to", typ: u(undefined, a("any")) },
@@ -3213,7 +3213,7 @@ const typeMap: any = {
     ], "any"),
     "Vertices": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, u(a(r("TentacledK")), r("KeysK"))) },
         { json: "x", js: "x", typ: u(undefined, "") },
         { json: "ti", js: "ti", typ: u(undefined, a("any")) },
@@ -3255,13 +3255,13 @@ const typeMap: any = {
     ], "any"),
     "PurpleOpacity": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, u(a(r("PurpleK")), 3.14)) },
         { json: "x", js: "x", typ: u(undefined, "") },
     ], "any"),
     "PurplePosition": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, a(r("CKObject"))) },
         { json: "ti", js: "ti", typ: u(undefined, a("any")) },
         { json: "to", js: "to", typ: u(undefined, a("any")) },
@@ -3269,19 +3269,19 @@ const typeMap: any = {
     ], "any"),
     "Points": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, u(a(r("PurpleK")), 3.14)) },
         { json: "x", js: "x", typ: u(undefined, "") },
     ], "any"),
     "PurpleRoundedCorners": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, u(a(r("PurpleK")), 3.14)) },
         { json: "x", js: "x", typ: u(undefined, "") },
     ], "any"),
     "PurpleSize": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, u(a(r("FluffyK")), 3.14)) },
         { json: "ti", js: "ti", typ: u(undefined, a("any")) },
         { json: "to", js: "to", typ: u(undefined, a("any")) },
@@ -3289,31 +3289,31 @@ const typeMap: any = {
     ], "any"),
     "ItSkewAxis": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, u(a(r("PurpleK")), 3.14)) },
         { json: "x", js: "x", typ: u(undefined, "") },
     ], "any"),
     "ItSkew": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, u(a(r("PurpleK")), 3.14)) },
         { json: "x", js: "x", typ: u(undefined, "") },
     ], "any"),
     "Width": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, u(a(r("PurpleK")), 3.14)) },
         { json: "x", js: "x", typ: u(undefined, "") },
     ], "any"),
     "ShapeO": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, u(a(r("PurpleK")), 3.14)) },
         { json: "x", js: "x", typ: u(undefined, "") },
     ], "any"),
     "ShapeP": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, a(r("CKObject"))) },
         { json: "ti", js: "ti", typ: u(undefined, a("any")) },
         { json: "to", js: "to", typ: u(undefined, a("any")) },
@@ -3321,13 +3321,13 @@ const typeMap: any = {
     ], "any"),
     "ShapeR": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, u(a(r("PurpleK")), 3.14)) },
         { json: "x", js: "x", typ: u(undefined, "") },
     ], "any"),
     "ShapeS": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, u(a(r("FluffyK")), 3.14)) },
         { json: "ti", js: "ti", typ: u(undefined, a("any")) },
         { json: "to", js: "to", typ: u(undefined, a("any")) },
@@ -3347,7 +3347,7 @@ const typeMap: any = {
     ], "any"),
     "TransformAnchorPoint": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, a(r("CKObject"))) },
         { json: "ti", js: "ti", typ: u(undefined, a("any")) },
         { json: "to", js: "to", typ: u(undefined, a("any")) },
@@ -3355,13 +3355,13 @@ const typeMap: any = {
     ], "any"),
     "TransformOpacity": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, u(a(r("PurpleK")), 3.14)) },
         { json: "x", js: "x", typ: u(undefined, "") },
     ], "any"),
     "TransformPosition": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, a(r("CKObject"))) },
         { json: "ti", js: "ti", typ: u(undefined, a("any")) },
         { json: "to", js: "to", typ: u(undefined, a("any")) },
@@ -3369,31 +3369,31 @@ const typeMap: any = {
     ], "any"),
     "PositionX": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, u(a(r("PurpleK")), 3.14)) },
         { json: "x", js: "x", typ: u(undefined, "") },
     ], "any"),
     "PositionY": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, u(a(r("PurpleK")), 3.14)) },
         { json: "x", js: "x", typ: u(undefined, "") },
     ], "any"),
     "PositionZ": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, u(a(r("PurpleK")), 3.14)) },
         { json: "x", js: "x", typ: u(undefined, "") },
     ], "any"),
     "TransformRotation": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, u(a(r("PurpleK")), 3.14)) },
         { json: "x", js: "x", typ: u(undefined, "") },
     ], "any"),
     "TransformScale": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, a(r("CKObject"))) },
         { json: "ti", js: "ti", typ: u(undefined, a("any")) },
         { json: "to", js: "to", typ: u(undefined, a("any")) },
@@ -3401,13 +3401,13 @@ const typeMap: any = {
     ], "any"),
     "TransformSkewAxis": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, u(a(r("PurpleK")), 3.14)) },
         { json: "x", js: "x", typ: u(undefined, "") },
     ], "any"),
     "TransformSkew": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, u(a(r("PurpleK")), 3.14)) },
         { json: "x", js: "x", typ: u(undefined, "") },
     ], "any"),
@@ -3432,13 +3432,13 @@ const typeMap: any = {
     ], "any"),
     "MaskPropertyOpacity": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, u(a(r("PurpleK")), 3.14)) },
         { json: "x", js: "x", typ: u(undefined, "") },
     ], "any"),
     "Point": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, u(a(r("TentacledK")), r("KeysK"))) },
         { json: "x", js: "x", typ: u(undefined, "") },
         { json: "ti", js: "ti", typ: u(undefined, a("any")) },
@@ -3502,7 +3502,7 @@ const typeMap: any = {
     ], "any"),
     "AAnchorPoint": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, a(r("CKObject"))) },
         { json: "ti", js: "ti", typ: u(undefined, a("any")) },
         { json: "to", js: "to", typ: u(undefined, a("any")) },
@@ -3510,13 +3510,13 @@ const typeMap: any = {
     ], "any"),
     "FillBrightness": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, u(a(r("PurpleK")), 3.14)) },
         { json: "x", js: "x", typ: u(undefined, "") },
     ], "any"),
     "FillColor": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, a(r("CKObject"))) },
         { json: "ti", js: "ti", typ: u(undefined, a("any")) },
         { json: "to", js: "to", typ: u(undefined, a("any")) },
@@ -3524,25 +3524,25 @@ const typeMap: any = {
     ], "any"),
     "FillHue": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, u(a(r("PurpleK")), 3.14)) },
         { json: "x", js: "x", typ: u(undefined, "") },
     ], "any"),
     "FillSaturation": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, u(a(r("PurpleK")), 3.14)) },
         { json: "x", js: "x", typ: u(undefined, "") },
     ], "any"),
     "AOpacity": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, u(a(r("PurpleK")), 3.14)) },
         { json: "x", js: "x", typ: u(undefined, "") },
     ], "any"),
     "APosition": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, a(r("CKObject"))) },
         { json: "ti", js: "ti", typ: u(undefined, a("any")) },
         { json: "to", js: "to", typ: u(undefined, a("any")) },
@@ -3550,13 +3550,13 @@ const typeMap: any = {
     ], "any"),
     "ARotation": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, u(a(r("PurpleK")), 3.14)) },
         { json: "x", js: "x", typ: u(undefined, "") },
     ], "any"),
     "AScale": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, a(r("CKObject"))) },
         { json: "ti", js: "ti", typ: u(undefined, a("any")) },
         { json: "to", js: "to", typ: u(undefined, a("any")) },
@@ -3564,13 +3564,13 @@ const typeMap: any = {
     ], "any"),
     "ASkewAxis": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, u(a(r("PurpleK")), 3.14)) },
         { json: "x", js: "x", typ: u(undefined, "") },
     ], "any"),
     "StrokeColor": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, a(r("CKObject"))) },
         { json: "ti", js: "ti", typ: u(undefined, a("any")) },
         { json: "to", js: "to", typ: u(undefined, a("any")) },
@@ -3578,19 +3578,19 @@ const typeMap: any = {
     ], "any"),
     "ASkew": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, u(a(r("PurpleK")), 3.14)) },
         { json: "x", js: "x", typ: u(undefined, "") },
     ], "any"),
     "StrokeWidth": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, u(a(r("PurpleK")), 3.14)) },
         { json: "x", js: "x", typ: u(undefined, "") },
     ], "any"),
     "Tracking": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, u(a(r("PurpleK")), 3.14)) },
         { json: "x", js: "x", typ: u(undefined, "") },
     ], "any"),
@@ -3609,37 +3609,37 @@ const typeMap: any = {
     ], "any"),
     "Offset": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, u(a(r("PurpleK")), 3.14)) },
         { json: "x", js: "x", typ: u(undefined, "") },
     ], "any"),
     "End": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, u(a(r("PurpleK")), 3.14)) },
         { json: "x", js: "x", typ: u(undefined, "") },
     ], "any"),
     "MaxAmount": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, u(a(r("PurpleK")), 3.14)) },
         { json: "x", js: "x", typ: u(undefined, "") },
     ], "any"),
     "MaxEase": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, u(a(r("PurpleK")), 3.14)) },
         { json: "x", js: "x", typ: u(undefined, "") },
     ], "any"),
     "MinEase": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, u(a(r("PurpleK")), 3.14)) },
         { json: "x", js: "x", typ: u(undefined, "") },
     ], "any"),
     "Start": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, u(a(r("PurpleK")), 3.14)) },
         { json: "x", js: "x", typ: u(undefined, "") },
     ], "any"),
@@ -3666,7 +3666,7 @@ const typeMap: any = {
     ], "any"),
     "GroupingAlignment": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, a(r("CKObject"))) },
         { json: "ti", js: "ti", typ: u(undefined, a("any")) },
         { json: "to", js: "to", typ: u(undefined, a("any")) },
@@ -3691,7 +3691,7 @@ const typeMap: any = {
     ], "any"),
     "Keys": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },
-        { json: "ix", js: "ix", typ: u(undefined, "") },
+        { json: "ix", js: "ix", typ: u(undefined, 3.14) },
         { json: "k", js: "k", typ: u(undefined, r("KeysK")) },
         { json: "x", js: "x", typ: u(undefined, "") },
     ], "any"),

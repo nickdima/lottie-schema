@@ -19,7 +19,7 @@
     "ix": {
       "description": "Property Index",
       "extended_name": "Property Index",
-      "type": "string"
+      "type": "number"
     },
     "ti": {
       "description": "In Tangent",
