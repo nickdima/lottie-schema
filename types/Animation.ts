@@ -452,11 +452,11 @@ export interface FluffyI {
     /**
      * X axis
      */
-    x?: any[] | number;
+    x?: number;
     /**
      * Y axis
      */
-    y?: any[] | number;
+    y?: number;
 }
 
 /**
@@ -810,11 +810,11 @@ export interface TentacledI {
     /**
      * X axis
      */
-    x?: any[];
+    x?: number;
     /**
      * Y axis
      */
-    y?: any[];
+    y?: number;
 }
 
 /**
@@ -3120,8 +3120,8 @@ const typeMap: any = {
         { json: "t", js: "t", typ: u(undefined, 3.14) },
     ], "any"),
     "FluffyI": o([
-        { json: "x", js: "x", typ: u(undefined, u(a("any"), 3.14)) },
-        { json: "y", js: "y", typ: u(undefined, u(a("any"), 3.14)) },
+        { json: "x", js: "x", typ: u(undefined, 3.14) },
+        { json: "y", js: "y", typ: u(undefined, 3.14) },
     ], "any"),
     "PurpleO": o([
         { json: "x", js: "x", typ: u(undefined, a("any")) },
@@ -3208,8 +3208,8 @@ const typeMap: any = {
         { json: "t", js: "t", typ: u(undefined, 3.14) },
     ], "any"),
     "TentacledI": o([
-        { json: "x", js: "x", typ: u(undefined, a("any")) },
-        { json: "y", js: "y", typ: u(undefined, a("any")) },
+        { json: "x", js: "x", typ: u(undefined, 3.14) },
+        { json: "y", js: "y", typ: u(undefined, 3.14) },
     ], "any"),
     "Vertices": o([
         { json: "a", js: "a", typ: u(undefined, 3.14) },

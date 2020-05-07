@@ -24,12 +24,12 @@
         "x": {
           "description": "X axis",
           "extended_name": "X axis",
-          "type": "array"
+          "type": "number"
         },
         "y": {
           "description": "Y axis",
           "extended_name": "Y axis",
-          "type": "array"
+          "type": "number"
         }
       },
       "type": "object"
@@ -41,12 +41,12 @@
         "x": {
           "description": "X axis",
           "extended_name": "X axis",
-          "type": "array"
+          "type": "number"
         },
         "y": {
           "description": "Y axis",
           "extended_name": "Y axis",
-          "type": "array"
+          "type": "number"
         }
       },
       "type": "object"
