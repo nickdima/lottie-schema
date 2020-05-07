@@ -62,7 +62,7 @@
     "nm": {
       "description": "Name",
       "extended_name": "Name",
-      "type": "number"
+      "type": "string"
     }
   }
 }

@@ -145,7 +145,7 @@ export interface AssetLayer {
     /**
      * Name
      */
-    nm?: number;
+    nm?: number | string;
     /**
      * Out Point
      */
@@ -430,7 +430,7 @@ export interface FluffyK {
     /**
      * Name
      */
-    nm?: number;
+    nm?: string;
     /**
      * Out Value
      */
@@ -788,7 +788,7 @@ export interface CKObject {
     /**
      * Name
      */
-    nm?: number;
+    nm?: string;
     /**
      * Out Value
      */
@@ -861,7 +861,7 @@ export interface TentacledK {
     /**
      * Name
      */
-    nm?: number;
+    nm?: string;
     /**
      * Out Value
      */
@@ -2798,7 +2798,7 @@ export interface AnimationLayer {
     /**
      * Name
      */
-    nm?: number;
+    nm?: number | string;
     /**
      * Out Point
      */
@@ -3043,7 +3043,7 @@ const typeMap: any = {
         { json: "ks", js: "ks", typ: u(undefined, r("KsObject")) },
         { json: "ln", js: "ln", typ: u(undefined, "") },
         { json: "maskProperties", js: "maskProperties", typ: u(undefined, a(r("MaskProperty"))) },
-        { json: "nm", js: "nm", typ: u(undefined, 3.14) },
+        { json: "nm", js: "nm", typ: u(undefined, u(3.14, "")) },
         { json: "op", js: "op", typ: u(undefined, 3.14) },
         { json: "parent", js: "parent", typ: u(undefined, 3.14) },
         { json: "shapes", js: "shapes", typ: u(undefined, a(r("Shape"))) },
@@ -3114,7 +3114,7 @@ const typeMap: any = {
     "FluffyK": o([
         { json: "e", js: "e", typ: u(undefined, u(a(3.14), 3.14)) },
         { json: "i", js: "i", typ: u(undefined, r("FluffyI")) },
-        { json: "nm", js: "nm", typ: u(undefined, 3.14) },
+        { json: "nm", js: "nm", typ: u(undefined, "") },
         { json: "o", js: "o", typ: u(undefined, r("PurpleO")) },
         { json: "s", js: "s", typ: u(undefined, u(a(3.14), 3.14)) },
         { json: "t", js: "t", typ: u(undefined, 3.14) },
@@ -3202,7 +3202,7 @@ const typeMap: any = {
     "CKObject": o([
         { json: "e", js: "e", typ: u(undefined, a(3.14)) },
         { json: "i", js: "i", typ: u(undefined, r("TentacledI")) },
-        { json: "nm", js: "nm", typ: u(undefined, 3.14) },
+        { json: "nm", js: "nm", typ: u(undefined, "") },
         { json: "o", js: "o", typ: u(undefined, r("PurpleO")) },
         { json: "s", js: "s", typ: u(undefined, a(3.14)) },
         { json: "t", js: "t", typ: u(undefined, 3.14) },
@@ -3222,7 +3222,7 @@ const typeMap: any = {
     "TentacledK": o([
         { json: "e", js: "e", typ: u(undefined, a(r("EElement"))) },
         { json: "i", js: "i", typ: u(undefined, r("StickyI")) },
-        { json: "nm", js: "nm", typ: u(undefined, 3.14) },
+        { json: "nm", js: "nm", typ: u(undefined, "") },
         { json: "o", js: "o", typ: u(undefined, r("FluffyO")) },
         { json: "s", js: "s", typ: u(undefined, a(r("Empty"))) },
         { json: "t", js: "t", typ: u(undefined, 3.14) },
@@ -3721,7 +3721,7 @@ const typeMap: any = {
         { json: "ks", js: "ks", typ: u(undefined, r("KsObject")) },
         { json: "ln", js: "ln", typ: u(undefined, "") },
         { json: "maskProperties", js: "maskProperties", typ: u(undefined, a(r("MaskProperty"))) },
-        { json: "nm", js: "nm", typ: u(undefined, 3.14) },
+        { json: "nm", js: "nm", typ: u(undefined, u(3.14, "")) },
         { json: "op", js: "op", typ: u(undefined, 3.14) },
         { json: "parent", js: "parent", typ: u(undefined, 3.14) },
         { json: "shapes", js: "shapes", typ: u(undefined, a(r("Shape"))) },
