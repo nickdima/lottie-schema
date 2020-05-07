@@ -4,23 +4,23 @@
   "properties": {
     "mn": {
       "title": "Match Name",
-      "description": "After Effects匹配名称。用于表达式。",
+      "description": "Match Name",
       "type": "string"
     },
     "nm": {
       "title": "Name",
-      "description": "After Effects名称。用于表达式。",
+      "description": "Name",
       "type": "string"
     },
     "ty": {
       "title": "Type",
-      "description": "形状内容类型。此功能不受支持。它是导出的，因为如果你导出它，它们就会出现。",
+      "description": "Type",
       "type": "string",
       "const": "mm"
     },
     "mm": {
       "title": "Merge Mode",
-      "description": "合并模式",
+      "description": "Merge Mode",
       "type": "number"
     }
   }

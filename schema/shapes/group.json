@@ -4,80 +4,80 @@
   "properties": {
     "mn": {
       "title": "Match Name",
-      "description": "After Effects匹配名称。用于表达式。",
+      "description": "Match Name",
       "type": "string"
     },
     "nm": {
       "title": "Name",
-      "description": "After Effects名称。用于表达式。",
+      "description": "Name",
       "type": "string"
     },
     "ty": {
       "title": "Type",
-      "description": "形状内容类型。",
+      "description": "Type",
       "type": "string",
       "const": "gr"
     },
     "np": {
       "title": "Number of Properties",
-      "description": "组属性数。用于表达式。",
+      "description": "Number of Properties",
       "type": "number"
     },
     "it": {
       "title": "Items",
-      "description": "组项目清单 group",
+      "description": "Items",
       "items": {
         "oneOf": [
           {
-            "$ref": "https://nickdima.github.io/lottie-schema/shapes/shape.json",
+            "$ref": "shapes/shape.json",
             "value": "sh"
           },
           {
-            "$ref": "https://nickdima.github.io/lottie-schema/shapes/rect.json",
+            "$ref": "shapes/rect.json",
             "value": "rc"
           },
           {
-            "$ref": "https://nickdima.github.io/lottie-schema/shapes/ellipse.json",
+            "$ref": "shapes/ellipse.json",
             "value": "el"
           },
           {
-            "$ref": "https://nickdima.github.io/lottie-schema/shapes/star.json",
+            "$ref": "shapes/star.json",
             "value": "sr"
           },
           {
-            "$ref": "https://nickdima.github.io/lottie-schema/shapes/fill.json",
+            "$ref": "shapes/fill.json",
             "value": "fl"
           },
           {
-            "$ref": "https://nickdima.github.io/lottie-schema/shapes/gFill.json",
+            "$ref": "shapes/gFill.json",
             "value": "gf"
           },
           {
-            "$ref": "https://nickdima.github.io/lottie-schema/shapes/gStroke.json",
+            "$ref": "shapes/gStroke.json",
             "value": "gs"
           },
           {
-            "$ref": "https://nickdima.github.io/lottie-schema/shapes/stroke.json",
+            "$ref": "shapes/stroke.json",
             "value": "st"
           },
           {
-            "$ref": "https://nickdima.github.io/lottie-schema/shapes/merge.json",
+            "$ref": "shapes/merge.json",
             "value": "mm"
           },
           {
-            "$ref": "https://nickdima.github.io/lottie-schema/shapes/trim.json",
+            "$ref": "shapes/trim.json",
             "value": "tm"
           },
           {
-            "$ref": "https://nickdima.github.io/lottie-schema/shapes/group.json",
+            "$ref": "shapes/group.json",
             "value": "gr"
           },
           {
-            "$ref": "https://nickdima.github.io/lottie-schema/shapes/roundedCorners.json",
+            "$ref": "shapes/round.json",
             "value": "rd"
           },
           {
-            "$ref": "https://nickdima.github.io/lottie-schema/shapes/transform.json",
+            "$ref": "shapes/transform.json",
             "value": "tr"
           }
         ],

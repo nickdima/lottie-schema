@@ -13,22 +13,22 @@
       "items": {
         "oneOf": [
           {
-            "$ref": "https://nickdima.github.io/lottie-schema/layers/shape.json"
+            "$ref": "layers/shape.json"
           },
           {
-            "$ref": "https://nickdima.github.io/lottie-schema/layers/solid.json"
+            "$ref": "layers/solid.json"
           },
           {
-            "$ref": "https://nickdima.github.io/lottie-schema/layers/comp.json"
+            "$ref": "layers/precomp.json"
           },
           {
-            "$ref": "https://nickdima.github.io/lottie-schema/layers/image.json"
+            "$ref": "layers/image.json"
           },
           {
-            "$ref": "https://nickdima.github.io/lottie-schema/layers/null.json"
+            "$ref": "layers/null.json"
           },
           {
-            "$ref": "https://nickdima.github.io/lottie-schema/layers/text.json"
+            "$ref": "layers/text.json"
           }
         ],
         "type": "object"

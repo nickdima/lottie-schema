@@ -4,37 +4,37 @@
   "properties": {
     "ty": {
       "title": "Type",
-      "description": "图层类型：实心。",
+      "description": "Type",
       "type": "number",
       "value": 1
     },
     "ks": {
       "title": "Transform",
-      "description": "转换属性",
+      "description": "Transform",
       "oneOf": [
         {
-          "$ref": "https://nickdima.github.io/lottie-schema/helpers/transform.json"
+          "$ref": "helpers/transform.json"
         }
       ],
       "type": "object"
     },
     "ao": {
       "title": "Auto-Orient",
-      "description": "沿路径AE属性自动定向。",
+      "description": "Auto-Orient",
       "type": "number",
       "oneOf": [
         {
-          "$ref": "https://nickdima.github.io/lottie-schema/helpers/boolean.json"
+          "$ref": "helpers/boolean.json"
         }
       ],
       "default": 0
     },
     "bm": {
       "title": "Blend Mode",
-      "description": "混合模式",
+      "description": "Blend Mode",
       "oneOf": [
         {
-          "$ref": "https://nickdima.github.io/lottie-schema/helpers/blendMode.json"
+          "$ref": "helpers/blendMode.json"
         }
       ],
       "type": "number",
@@ -42,62 +42,62 @@
     },
     "ddd": {
       "title": "3d Layer",
-      "description": "3d图层标志",
+      "description": "3d Layer",
       "type": "number",
       "oneOf": [
         {
-          "$ref": "https://nickdima.github.io/lottie-schema/helpers/boolean.json"
+          "$ref": "helpers/boolean.json"
         }
       ],
       "default": 0
     },
     "ind": {
       "title": "Index",
-      "description": "AE中的层索引。用于父母和表达式。",
+      "description": "Index",
       "type": "number"
     },
     "cl": {
       "title": "Class",
-      "description": "在SVG / HTML渲染器上用作html类的解析图层名称",
+      "description": "Class",
       "type": "string"
     },
     "ln": {
       "title": "layer HTML ID",
-      "description": "在SVG / HTML渲染器上用作html id的解析图层名称",
+      "description": "layer HTML ID",
       "type": "string"
     },
     "ip": {
       "title": "In Point",
-      "description": "初始帧",
+      "description": "In Point",
       "type": "number"
     },
     "op": {
       "title": "Out Point",
-      "description": "结束帧",
+      "description": "Out Point",
       "type": "number"
     },
     "st": {
       "title": "Start Time",
-      "description": "图层的开始时间。设置图层的开始时间。",
+      "description": "Start Time",
       "type": "number"
     },
     "nm": {
       "title": "Name",
-      "description": "After Effects图层名称。用于KeyPath。",
+      "description": "Name",
       "type": "number"
     },
     "hasMask": {
       "title": "Has Masks",
-      "description": "图层具有蒙版时的布尔值。将弃用以支持检查maskProperties。",
+      "description": "Has Masks",
       "type": "number"
     },
     "maskProperties": {
       "title": "Mask Properties",
-      "description": "面具清单",
+      "description": "Mask Properties",
       "items": {
         "oneOf": [
           {
-            "$ref": "https://nickdima.github.io/lottie-schema/helpers/mask.json"
+            "$ref": "helpers/mask.json"
           }
         ],
         "type": "object"
@@ -106,38 +106,38 @@
     },
     "ef": {
       "title": "Effects",
-      "description": "沿路径AE属性自动定向。",
+      "description": "Effects",
       "type": "number",
       "oneOf": [
         {
-          "$ref": "https://nickdima.github.io/lottie-schema/helpers/boolean.json"
+          "$ref": "helpers/boolean.json"
         }
       ]
     },
     "sr": {
       "title": "Stretch",
-      "description": "图层时间拉伸",
+      "description": "Stretch",
       "type": "number",
       "default": 1
     },
     "parent": {
       "title": "Parent",
-      "description": "图层父级。使用父母的ind。",
+      "description": "Parent",
       "type": "number"
     },
     "sc": {
       "title": "Solid Color",
-      "description": "十六进制固体的颜色",
+      "description": "Solid Color",
       "type": "string"
     },
     "sh": {
       "title": "Solid Height",
-      "description": "固体的高度。",
+      "description": "Solid Height",
       "type": "number"
     },
     "sw": {
       "title": "Solid Width",
-      "description": "固体的宽度。",
+      "description": "Solid Width",
       "type": "number"
     }
   }

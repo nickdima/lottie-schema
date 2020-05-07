@@ -4,49 +4,49 @@
   "properties": {
     "ix": {
       "title": "Effect Index",
-      "description": "Effect Index. Used for expressions.",
+      "description": "Effect Index",
       "type": "number"
     },
     "mn": {
       "title": "Match Name",
-      "description": "After Effect's Match Name. Used for expressions.",
+      "description": "Match Name",
       "type": "string"
     },
     "nm": {
       "title": "Name",
-      "description": "After Effect's Name. Used for expressions.",
+      "description": "Name",
       "type": "string"
     },
     "ty": {
       "title": "Type",
-      "description": "Effect type.",
+      "description": "Type",
       "type": "number",
       "const": 21
     },
     "ef": {
       "title": "Effects",
-      "description": "Effect List of properties.",
+      "description": "Effects",
       "items": [
         {
-          "$ref": "https://nickdima.github.io/lottie-schema/effects/point.json"
+          "$ref": "effects/point.json"
         },
         {
-          "$ref": "https://nickdima.github.io/lottie-schema/effects/dropDown.json"
+          "$ref": "effects/dropDown.json"
         },
         {
-          "$ref": "https://nickdima.github.io/lottie-schema/effects/color.json"
+          "$ref": "effects/color.json"
         },
         {
-          "$ref": "https://nickdima.github.io/lottie-schema/effects/dropDown.json"
+          "$ref": "effects/dropDown.json"
         },
         {
-          "$ref": "https://nickdima.github.io/lottie-schema/effects/slider.json"
+          "$ref": "effects/slider.json"
         },
         {
-          "$ref": "https://nickdima.github.io/lottie-schema/effects/slider.json"
+          "$ref": "effects/slider.json"
         },
         {
-          "$ref": "https://nickdima.github.io/lottie-schema/effects/slider.json"
+          "$ref": "effects/slider.json"
         }
       ],
       "type": "array"

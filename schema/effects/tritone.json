@@ -4,41 +4,41 @@
   "properties": {
     "ix": {
       "title": "Effect Index",
-      "description": "效果指数。用于表达式。",
+      "description": "Effect Index",
       "type": "number"
     },
     "mn": {
       "title": "Match Name",
-      "description": "After Effects匹配名称。用于表达式。",
+      "description": "Match Name",
       "type": "string"
     },
     "nm": {
       "title": "Name",
-      "description": "After Effects名称。用于表达式。",
+      "description": "Name",
       "type": "string"
     },
     "ty": {
       "title": "Type",
-      "description": "效果类型。",
+      "description": "Type",
       "type": "number",
       "const": 23
     },
     "ef": {
       "title": "Effects",
-      "description": "效果列表属性。",
+      "description": "Effects",
       "type": "array",
       "items": [
         {
-          "$ref": "https://nickdima.github.io/lottie-schema/effects/color.json"
+          "$ref": "effects/color.json"
         },
         {
-          "$ref": "https://nickdima.github.io/lottie-schema/effects/color.json"
+          "$ref": "effects/color.json"
         },
         {
-          "$ref": "https://nickdima.github.io/lottie-schema/effects/color.json"
+          "$ref": "effects/color.json"
         },
         {
-          "$ref": "https://nickdima.github.io/lottie-schema/effects/slider.json"
+          "$ref": "effects/slider.json"
         }
       ]
     }

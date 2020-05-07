@@ -4,36 +4,36 @@
   "properties": {
     "ix": {
       "title": "Effect Index",
-      "description": "效果指数。用于表达式。",
+      "description": "Effect Index",
       "type": "number"
     },
     "mn": {
       "title": "Match Name",
-      "description": "After Effects匹配名称。用于表达式。",
+      "description": "Match Name",
       "type": "string"
     },
     "nm": {
       "title": "Name",
-      "description": "After Effects名称。用于表达式。",
+      "description": "Name",
       "type": "string"
     },
     "ty": {
       "title": "Type",
-      "description": "效果类型。",
+      "description": "Type",
       "type": "number",
       "const": 2
     },
     "v": {
       "title": "Value",
-      "description": "效果值。",
+      "description": "Value",
       "type": "object",
       "items": {
         "oneOf": [
           {
-            "$ref": "https://nickdima.github.io/lottie-schema/properties/multiDimensional.json"
+            "$ref": "properties/multiDimensional.json"
           },
           {
-            "$ref": "https://nickdima.github.io/lottie-schema/properties/multiDimensionalKeyframed.json"
+            "$ref": "properties/multiDimensionalKeyframed.json"
           }
         ],
         "type": "object"

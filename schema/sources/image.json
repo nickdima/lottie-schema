@@ -4,17 +4,17 @@
   "properties": {
     "h": {
       "title": "高度",
-      "description": "图片高度",
+      "description": "高度",
       "type": "number"
     },
     "w": {
       "title": "宽度",
-      "description": "Image Width",
+      "description": "宽度",
       "type": "number"
     },
     "id": {
       "title": "ID",
-      "description": "Image ID",
+      "description": "ID",
       "type": "string"
     },
     "p": {
@@ -29,7 +29,7 @@
     },
     "e": {
       "title": "图片资源设置",
-      "description": "0:默认,1:转成base64",
+      "description": "图片资源设置",
       "type": "number"
     }
   }

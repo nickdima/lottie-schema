@@ -19,12 +19,12 @@
     },
     "fStyle": {
       "title": "xxx体",
-      "description": "Regular and ..",
+      "description": "xxx体",
       "type": "string"
     },
     "fName": {
       "title": "字体名称",
-      "description": "fFamily + fStyle",
+      "description": "字体名称",
       "type": "string"
     },
     "fWeight": {
@@ -39,7 +39,7 @@
     },
     "ascent": {
       "title": "ascent",
-      "description": "字符最高点到baseline的推荐距离",
+      "description": "ascent",
       "type": "number"
     }
   }

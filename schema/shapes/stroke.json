@@ -4,80 +4,80 @@
   "properties": {
     "mn": {
       "title": "Match Name",
-      "description": "After Effect's Match Name. Used for expressions.",
+      "description": "Match Name",
       "type": "string"
     },
     "nm": {
       "title": "Name",
-      "description": "After Effect's Name. Used for expressions.",
+      "description": "Name",
       "type": "string"
     },
     "ty": {
       "title": "Type",
-      "description": "Shape content type.",
+      "description": "Type",
       "type": "string",
       "const": "st"
     },
     "lc": {
       "title": "Line Cap",
-      "description": "Stroke Line Cap",
+      "description": "Line Cap",
       "oneOf": [
         {
-          "$ref": "https://nickdima.github.io/lottie-schema/helpers/lineCap.json"
+          "$ref": "helpers/lineCap.json"
         }
       ],
       "type": "number"
     },
     "lj": {
       "title": "Line Join",
-      "description": "Stroke Line Join",
+      "description": "Line Join",
       "oneOf": [
         {
-          "$ref": "https://nickdima.github.io/lottie-schema/helpers/lineJoin.json"
+          "$ref": "helpers/lineJoin.json"
         }
       ],
       "type": "number"
     },
     "ml": {
       "title": "Miter Limit",
-      "description": "Stroke Miter Limit. Only if Line Join is set to Miter.",
+      "description": "Miter Limit",
       "type": "number"
     },
     "o": {
       "title": "Opacity",
-      "description": "Stroke Opacity",
+      "description": "Opacity",
       "oneOf": [
         {
-          "$ref": "https://nickdima.github.io/lottie-schema/properties/Value.json"
+          "$ref": "properties/Value.json"
         },
         {
-          "$ref": "https://nickdima.github.io/lottie-schema/properties/valueKeyframed.json"
+          "$ref": "properties/valueKeyframed.json"
         }
       ],
       "type": "object"
     },
     "w": {
       "title": "Width",
-      "description": "Stroke Width",
+      "description": "Width",
       "oneOf": [
         {
-          "$ref": "https://nickdima.github.io/lottie-schema/properties/Value.json"
+          "$ref": "properties/Value.json"
         },
         {
-          "$ref": "https://nickdima.github.io/lottie-schema/properties/valueKeyframed.json"
+          "$ref": "properties/valueKeyframed.json"
         }
       ],
       "type": "object"
     },
     "c": {
       "title": "Color",
-      "description": "Stroke Color",
+      "description": "Color",
       "oneOf": [
         {
-          "$ref": "https://nickdima.github.io/lottie-schema/properties/multiDimensional.json"
+          "$ref": "properties/multiDimensional.json"
         },
         {
-          "$ref": "https://nickdima.github.io/lottie-schema/properties/multiDimensionalKeyframed.json"
+          "$ref": "properties/multiDimensionalKeyframed.json"
         }
       ],
       "type": "object"

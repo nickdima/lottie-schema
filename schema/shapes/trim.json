@@ -4,55 +4,55 @@
   "properties": {
     "mn": {
       "title": "Match Name",
-      "description": "After Effects匹配名称。用于表达式。",
+      "description": "Match Name",
       "type": "string"
     },
     "nm": {
       "title": "Name",
-      "description": "After Effects名称。用于表达式。",
+      "description": "Name",
       "type": "string"
     },
     "ty": {
       "title": "Type",
-      "description": "形状内容类型。",
+      "description": "Type",
       "type": "string",
       "const": "tm"
     },
     "s": {
       "title": "Start",
-      "description": "修剪开始。",
+      "description": "Start",
       "oneOf": [
         {
-          "$ref": "https://nickdima.github.io/lottie-schema/properties/Value.json"
+          "$ref": "properties/Value.json"
         },
         {
-          "$ref": "https://nickdima.github.io/lottie-schema/properties/valueKeyframed.json"
+          "$ref": "properties/valueKeyframed.json"
         }
       ],
       "type": "object"
     },
     "e": {
       "title": "End",
-      "description": "修剪结束。",
+      "description": "End",
       "oneOf": [
         {
-          "$ref": "https://nickdima.github.io/lottie-schema/properties/Value.json"
+          "$ref": "properties/Value.json"
         },
         {
-          "$ref": "https://nickdima.github.io/lottie-schema/properties/valueKeyframed.json"
+          "$ref": "properties/valueKeyframed.json"
         }
       ],
       "type": "object"
     },
     "o": {
       "title": "Offset",
-      "description": "修剪偏移。",
+      "description": "Offset",
       "oneOf": [
         {
-          "$ref": "https://nickdima.github.io/lottie-schema/properties/Value.json"
+          "$ref": "properties/Value.json"
         },
         {
-          "$ref": "https://nickdima.github.io/lottie-schema/properties/valueKeyframed.json"
+          "$ref": "properties/valueKeyframed.json"
         }
       ],
       "type": "object"

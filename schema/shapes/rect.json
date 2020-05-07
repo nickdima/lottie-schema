@@ -4,60 +4,60 @@
   "properties": {
     "mn": {
       "title": "Match Name",
-      "description": "After Effects匹配名称。用于表达式。",
+      "description": "Match Name",
       "type": "string"
     },
     "nm": {
       "title": "Name",
-      "description": "After Effects名称。用于表达式。",
+      "description": "Name",
       "type": "string"
     },
     "d": {
       "title": "Direction",
-      "description": "After Effects方向。方向如何绘制形状。例如，用于修剪路径。",
+      "description": "Direction",
       "type": "number"
     },
     "ty": {
       "title": "Type",
-      "description": "形状内容类型。",
+      "description": "Type",
       "type": "string",
       "const": "rc"
     },
     "p": {
       "title": "Position",
-      "description": "Rect的位置",
+      "description": "Position",
       "oneOf": [
         {
-          "$ref": "https://nickdima.github.io/lottie-schema/properties/multiDimensional.json"
+          "$ref": "properties/multiDimensional.json"
         },
         {
-          "$ref": "https://nickdima.github.io/lottie-schema/properties/multiDimensionalKeyframed.json"
+          "$ref": "properties/multiDimensionalKeyframed.json"
         }
       ],
       "type": "object"
     },
     "s": {
       "title": "Size",
-      "description": "Rect的大小",
+      "description": "Size",
       "oneOf": [
         {
-          "$ref": "https://nickdima.github.io/lottie-schema/properties/multiDimensional.json"
+          "$ref": "properties/multiDimensional.json"
         },
         {
-          "$ref": "https://nickdima.github.io/lottie-schema/properties/multiDimensionalKeyframed.json"
+          "$ref": "properties/multiDimensionalKeyframed.json"
         }
       ],
       "type": "object"
     },
     "r": {
       "title": "Rounded corners",
-      "description": "Rect的圆角",
+      "description": "Rounded corners",
       "oneOf": [
         {
-          "$ref": "https://nickdima.github.io/lottie-schema/properties/Value.json"
+          "$ref": "properties/Value.json"
         },
         {
-          "$ref": "https://nickdima.github.io/lottie-schema/properties/valueKeyframed.json"
+          "$ref": "properties/valueKeyframed.json"
         }
       ],
       "type": "object"
