@@ -4,7 +4,7 @@
   "properties": {
     "a": {
       "title": "Anchor Point",
-      "description": "变换锚点",
+      "description": "Anchor Point",
       "oneOf": [
         {
           "$ref": "properties/multiDimensional.json"
@@ -18,7 +18,7 @@
     },
     "p": {
       "title": "Position",
-      "description": "变换位置",
+      "description": "Position",
       "oneOf": [
         {
           "$ref": "properties/multiDimensional.json"
@@ -32,7 +32,7 @@
     },
     "s": {
       "title": "Scale",
-      "description": "变换比例",
+      "description": "Scale",
       "oneOf": [
         {
           "$ref": "properties/multiDimensional.json"
@@ -46,7 +46,7 @@
     },
     "r": {
       "title": "Rotation",
-      "description": "变换旋转",
+      "description": "Rotation",
       "oneOf": [
         {
           "$ref": "properties/value.json"
@@ -60,7 +60,7 @@
     },
     "o": {
       "title": "Opacity",
-      "description": "变换不透明度",
+      "description": "Opacity",
       "oneOf": [
         {
           "$ref": "properties/value.json"
@@ -74,7 +74,7 @@
     },
     "px": {
       "title": "Position X",
-      "description": "转换位置X.",
+      "description": "Position X",
       "oneOf": [
         {
           "$ref": "properties/value.json"
@@ -88,7 +88,7 @@
     },
     "py": {
       "title": "Position Y",
-      "description": "转换位置Y.",
+      "description": "Position Y",
       "oneOf": [
         {
           "$ref": "properties/value.json"
@@ -102,7 +102,7 @@
     },
     "pz": {
       "title": "Position Z",
-      "description": "变换位置Z.",
+      "description": "Position Z",
       "oneOf": [
         {
           "$ref": "properties/value.json"
@@ -116,7 +116,7 @@
     },
     "sk": {
       "title": "Skew",
-      "description": "改变歪斜",
+      "description": "Skew",
       "oneOf": [
         {
           "$ref": "properties/value.json"
@@ -130,7 +130,7 @@
     },
     "sa": {
       "title": "Skew Axis",
-      "description": "变换斜轴",
+      "description": "Skew Axis",
       "oneOf": [
         {
           "$ref": "properties/value.json"

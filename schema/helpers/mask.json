@@ -4,18 +4,18 @@
   "properties": {
     "inv": {
       "title": "Inverted",
-      "description": "倒立面具标志",
+      "description": "Inverted",
       "type": "boolean",
       "default": false
     },
     "nm": {
       "title": "Name",
-      "description": "面具名称。用于表达式和效果。",
+      "description": "Name",
       "type": "string"
     },
     "pt": {
       "title": "Points",
-      "description": "掩模顶点",
+      "description": "Points",
       "type": "array",
       "items": {
         "type": "object",
@@ -31,7 +31,7 @@
     },
     "o": {
       "title": "Opacity",
-      "description": "遮罩不透明度。",
+      "description": "Opacity",
       "type": "object",
       "oneOf": [
         {
@@ -45,7 +45,7 @@
     },
     "mode": {
       "title": "Mode",
-      "description": "掩模模式。并非所有掩码类型都受支持。",
+      "description": "Mode",
       "type": "string",
       "oneOf": [
         {

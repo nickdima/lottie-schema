@@ -3,13 +3,13 @@
   "type": "object",
   "properties": {
     "h": {
-      "title": "高度",
-      "description": "高度",
+      "title": "Height",
+      "description": "Height",
       "type": "number"
     },
     "w": {
-      "title": "宽度",
-      "description": "宽度",
+      "title": "Width",
+      "description": "Width",
       "type": "number"
     },
     "id": {
@@ -18,18 +18,18 @@
       "type": "string"
     },
     "p": {
-      "title": "图片名称",
-      "description": "图片名称",
+      "title": "Name",
+      "description": "Name",
       "type": "string"
     },
     "u": {
-      "title": "图片路径",
-      "description": "图片路径",
+      "title": "Path",
+      "description": "Path",
       "type": "string"
     },
     "e": {
-      "title": "图片资源设置",
-      "description": "图片资源设置",
+      "title": "End",
+      "description": "End",
       "type": "number"
     }
   }

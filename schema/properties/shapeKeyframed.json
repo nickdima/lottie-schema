@@ -3,7 +3,7 @@
   "type": "object",
   "properties": {
     "k": {
-      "description": "关键帧的属性值",
+      "description": "Keyframes",
       "extended_name": "Keyframes",
       "items": {
         "type": "object",
@@ -12,27 +12,27 @@
       "type": "array"
     },
     "x": {
-      "description": "财产表达。修改值的AE表达式。",
+      "description": "Expression",
       "extended_name": "Expression",
       "type": "string"
     },
     "ix": {
-      "description": "ix值,用于表达式。",
+      "description": "Property Index",
       "extended_name": "Property Index",
       "type": "string"
     },
     "ti": {
-      "description": "在Spatial Tangent中。仅适用于空间属性。一组数字。",
+      "description": "In Tangent",
       "extended_name": "In Tangent",
       "type": "array"
     },
     "to": {
-      "description": "Out Spatial Tangent。仅适用于空间属性。一组数字。",
+      "description": "Out Tangent",
       "extended_name": "Out Tangent",
       "type": "array"
     },
     "a": {
-      "description": "定义属性是否为动画",
+      "description": "Animated",
       "extended_name": "Animated",
       "type": "number"
     }

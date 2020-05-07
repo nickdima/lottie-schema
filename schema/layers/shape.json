@@ -4,13 +4,13 @@
   "properties": {
     "ty": {
       "title": "Type",
-      "description": "图层类型：形状。",
+      "description": "Type",
       "type": "number",
       "const": 4
     },
     "ks": {
       "title": "Transform",
-      "description": "转换属性",
+      "description": "Transform",
       "oneOf": [
         {
           "$ref": "helpers/transform.json"
@@ -20,7 +20,7 @@
     },
     "ao": {
       "title": "Auto-Orient",
-      "description": "沿路径AE属性自动定向。",
+      "description": "Auto-Orient",
       "oneOf": [
         {
           "$ref": "helpers/boolean.json"
@@ -31,7 +31,7 @@
     },
     "bm": {
       "title": "Blend Mode",
-      "description": "混合模式",
+      "description": "Blend Mode",
       "oneOf": [
         {
           "$ref": "helpers/blendMode.json"
@@ -42,7 +42,7 @@
     },
     "ddd": {
       "title": "3d Layer",
-      "description": "3d图层标志",
+      "description": "3d Layer",
       "oneOf": [
         {
           "$ref": "helpers/boolean.json"
@@ -53,47 +53,47 @@
     },
     "ind": {
       "title": "Index",
-      "description": "AE中的层索引。用于父母和表达式。",
+      "description": "Index",
       "type": "number"
     },
     "cl": {
       "title": "Class",
-      "description": "在SVG / HTML渲染器上用作html类的解析图层名称",
+      "description": "Class",
       "type": "string"
     },
     "ln": {
       "title": "layer HTML ID",
-      "description": "在SVG / HTML渲染器上用作html id的解析图层名称",
+      "description": "layer HTML ID",
       "type": "string"
     },
     "ip": {
       "title": "In Point",
-      "description": "初始帧",
+      "description": "In Point",
       "type": "number"
     },
     "op": {
       "title": "Out Point",
-      "description": "结束帧",
+      "description": "Out Point",
       "type": "number"
     },
     "st": {
       "title": "Start Time",
-      "description": "图层的开始时间。设置图层的开始时间。",
+      "description": "Start Time",
       "type": "number"
     },
     "nm": {
       "title": "Name",
-      "description": "After Effects图层名称。用于KeyPath。",
+      "description": "Name",
       "type": "number"
     },
     "hasMask": {
       "title": "Has Masks",
-      "description": "图层具有蒙版时的布尔值。将弃用以支持检查maskProperties。",
+      "description": "Has Masks",
       "type": "number"
     },
     "maskProperties": {
       "title": "Mask Properties",
-      "description": "面具清单",
+      "description": "Mask Properties",
       "items": {
         "oneOf": [
           {
@@ -106,7 +106,7 @@
     },
     "ef": {
       "title": "Effects",
-      "description": "效果列表",
+      "description": "Effects",
       "items": {
         "oneOf": [
           {
@@ -119,13 +119,13 @@
     },
     "sr": {
       "title": "Stretch",
-      "description": "图层时间拉伸",
+      "description": "Stretch",
       "type": "number",
       "default": 1
     },
     "parent": {
       "title": "Parent",
-      "description": "图层父级。使用父母的ind。",
+      "description": "Parent",
       "type": "number"
     },
     "shapes": {
@@ -179,7 +179,7 @@
     },
     "it": {
       "title": "Items",
-      "description": "形状项目列表",
+      "description": "Items",
       "items": {
         "oneOf": [
           {

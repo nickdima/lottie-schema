@@ -3,23 +3,23 @@
   "type": "object",
   "properties": {
     "k": {
-      "description": "属性的值",
+      "description": "Value",
       "extended_name": "Value",
       "type": "object",
       "$ref": "properties/shapeProp.json"
     },
     "x": {
-      "description": "财产表达。修改值的AE表达式。",
+      "description": "Expression",
       "extended_name": "Expression",
       "type": "string"
     },
     "ix": {
-      "description": "ix值,用于表达式。",
+      "description": "Property Index",
       "extended_name": "Property Index",
       "type": "string"
     },
     "a": {
-      "description": "定义属性是否为动画",
+      "description": "Animated",
       "extended_name": "Animated",
       "type": "number"
     }

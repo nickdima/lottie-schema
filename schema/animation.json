@@ -4,48 +4,48 @@
   "properties": {
     "ip": {
       "title": "In Point",
-      "description": "初始帧",
+      "description": "In Point",
       "type": "number"
     },
     "op": {
       "title": "Out Point",
-      "description": "时间点的统治者。集的最后一帧动画",
+      "description": "Out Point",
       "type": "number"
     },
     "fr": {
       "title": "Frame Rate",
-      "description": "帧率",
+      "description": "Frame Rate",
       "type": "number"
     },
     "w": {
       "title": "Width",
-      "description": "合成宽度",
+      "description": "Width",
       "type": "number"
     },
     "ddd": {
       "title": "3-D",
-      "description": "合成具有三维层次",
+      "description": "3-D",
       "enum": [0, 1],
       "type": "number"
     },
     "h": {
       "title": "Height",
-      "description": "合成高度",
+      "description": "Height",
       "type": "number"
     },
     "v": {
       "title": "Version",
-      "description": "Bodymovin 版本",
+      "description": "Version",
       "type": "string"
     },
     "nm": {
       "title": "Name",
-      "description": "合成名称",
+      "description": "Name",
       "type": "string"
     },
     "layers": {
       "title": "Layers",
-      "description": "合成的图层",
+      "description": "Layers",
       "items": {
         "oneOf": [
           {
@@ -73,7 +73,7 @@
     },
     "assets": {
       "title": "Assets",
-      "description": "源项可以在多个地方使用。comp和图像。",
+      "description": "Assets",
       "items": {
         "oneOf": [
           {
@@ -89,7 +89,7 @@
     },
     "chars": {
       "title": "Chars",
-      "description": "源字符文本图层",
+      "description": "Chars",
       "items": {
         "oneOf": [
           {
@@ -102,7 +102,7 @@
     },
     "players": {
       "title": "Players",
-      "description": "动画播放规则",
+      "description": "Players",
       "items": {
         "oneOf": [
           {
@@ -115,11 +115,11 @@
     },
     "fonts": {
       "title": "fonts",
-      "description": "字体资源",
+      "description": "fonts",
       "properties": {
         "list": {
           "title": "fonts list",
-          "description": "字体资源list",
+          "description": "fonts list",
           "items": {
             "oneOf": [
               {

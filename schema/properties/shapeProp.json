@@ -3,12 +3,12 @@
   "type": "object",
   "properties": {
     "c": {
-      "description": "封闭的形状属性",
+      "description": "Closed",
       "extended_name": "Closed",
       "type": "boolean"
     },
     "i": {
-      "description": "Bezier曲线在点。二维数组的数组。",
+      "description": "In Point",
       "extended_name": "In Point",
       "type": "array",
       "items": {
@@ -21,7 +21,7 @@
       }
     },
     "o": {
-      "description": "贝塞尔曲线出点。二维数组的数组。",
+      "description": "Out Point",
       "extended_name": "Out Point",
       "type": "array",
       "items": {
@@ -34,7 +34,7 @@
       }
     },
     "v": {
-      "description": "贝塞尔曲线顶点。二维数组的数组。",
+      "description": "Vertices",
       "extended_name": "Vertices",
       "type": "array",
       "items": {

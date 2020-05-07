@@ -3,43 +3,43 @@
   "type": "object",
   "properties": {
     "fPath": {
-      "title": "字体路径",
-      "description": "字体路径",
+      "title": "Path",
+      "description": "Path",
       "type": "string"
     },
     "fFamily": {
-      "title": "字体家族",
-      "description": "字体家族",
+      "title": "Family",
+      "description": "Family",
       "type": "string"
     },
     "fClass": {
-      "title": "css类名",
-      "description": "css类名",
+      "title": "CSS Class",
+      "description": "CSS",
       "type": "string"
     },
     "fStyle": {
-      "title": "xxx体",
-      "description": "xxx体",
+      "title": "Style",
+      "description": "Style",
       "type": "string"
     },
     "fName": {
-      "title": "字体名称",
-      "description": "字体名称",
+      "title": "Name",
+      "description": "Name",
       "type": "string"
     },
     "fWeight": {
-      "title": "字体粗细",
-      "description": "字体粗细",
+      "title": "Weight",
+      "description": "Weight",
       "type": "string"
     },
     "origin": {
-      "title": "origin",
-      "description": "origin",
+      "title": "Origin",
+      "description": "Origin",
       "type": "number"
     },
     "ascent": {
-      "title": "ascent",
-      "description": "ascent",
+      "title": "Ascent",
+      "description": "Ascent",
       "type": "number"
     }
   }

@@ -4,12 +4,12 @@
   "properties": {
     "id": {
       "title": "ID",
-      "description": "预编译ID",
+      "description": "ID",
       "type": "string"
     },
     "layers": {
       "title": "Layers",
-      "description": "预编译列表",
+      "description": "Layers",
       "items": {
         "oneOf": [
           {

@@ -37,7 +37,7 @@
       "type": "array"
     },
     "en": {
-      "description": "启用AE属性值",
+      "description": "Enabled",
       "extended_name": "Enabled",
       "type": "number"
     }

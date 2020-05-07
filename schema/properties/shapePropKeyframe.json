@@ -3,7 +3,7 @@
   "type": "object",
   "properties": {
     "e": {
-      "description": "关键帧段的结束值。",
+      "description": "End",
       "extended_name": "End",
       "items": {
         "type": "object",
@@ -12,7 +12,7 @@
       "type": "array"
     },
     "s": {
-      "description": "关键帧段的起始值。",
+      "description": "Start",
       "extended_name": "Start",
       "items": {
         "type": "object",
@@ -21,21 +21,21 @@
       "type": "array"
     },
     "t": {
-      "description": "关键帧细分的开始时间。",
+      "description": "Time",
       "extended_name": "Time",
       "type": "number"
     },
     "i": {
-      "description": "贝塞尔曲线插值的价值。",
+      "description": "In Value",
       "extended_name": "In Value",
       "properties": {
         "x": {
-          "description": "贝塞尔x轴。一组数字。",
+          "description": "X axis",
           "extended_name": "X axis",
           "type": "array"
         },
         "y": {
-          "description": "bezier y轴。一组数字。",
+          "description": "Y axis",
           "extended_name": "Y axis",
           "type": "array"
         }
@@ -43,16 +43,16 @@
       "type": "object"
     },
     "o": {
-      "description": "贝塞尔曲线插值输出值。",
+      "description": "Out Value",
       "extended_name": "Out Value",
       "properties": {
         "x": {
-          "description": "贝塞尔x轴。一组数字。",
+          "description": "X axis",
           "extended_name": "X axis",
           "type": "array"
         },
         "y": {
-          "description": "bezier y轴。一组数字。",
+          "description": "Y axis",
           "extended_name": "Y axis",
           "type": "array"
         }
@@ -60,7 +60,7 @@
       "type": "object"
     },
     "nm": {
-      "description": "贝塞尔曲线名称。用于缓存。",
+      "description": "Name",
       "extended_name": "Name",
       "type": "number"
     }
